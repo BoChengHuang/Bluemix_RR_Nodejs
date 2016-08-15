@@ -32,7 +32,7 @@ Bluemix API of retrieve and rank in Node.js
 * Upload Documents.
 * Upload Training data and create Ranker.
 * Search and rerank.
-* Get information about a configuration/cluster/rank.
+* Get information about configuration/cluster/rank.
 
 7. Enjoy it (Ask something).
 
