@@ -24,7 +24,7 @@ Bluemix API of retrieve and rank in Node.js
 5. Install modeules: 
     `npm install` (if you encouter permission problems: sudo npm install)
 
-6. Main functions are all implement in Solrcluster.js file.
+6. Main functions are all implement in `Solrcluster.js` file.
 
     * Create Cluster.
     * Create collection.
