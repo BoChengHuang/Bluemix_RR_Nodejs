@@ -26,13 +26,13 @@ Bluemix API of retrieve and rank in Node.js
 
 6. Main functions are all implement in Solrcluster.js file.
 
-* Create Cluster.
-* Create collection.
-* Upload configuration.
-* Upload Documents.
-* Upload Training data and create Ranker.
-* Search and rerank.
-* Get information about configuration/cluster/rank.
+    * Create Cluster.
+    * Create collection.
+    * Upload configuration.
+    * Upload Documents.
+    * Upload Training data and create Ranker.
+    * Search and rerank.
+    * Get information about configuration/cluster/rank.
 
 7. Enjoy it (Ask something).
 
