@@ -12,7 +12,7 @@ Bluemix API of retrieve and rank in Node.js
 
 # How do I get set up? ###
 
-0. Read [IBM Watson Developer Cloud](https://www.ibm.com/watson/developercloud/doc/retrieve-rank/index.shtml) to know concept and flow.
+0. Read [IBM Watson Developer Cloud](https://www.ibm.com/watson/developercloud/doc/retrieve-rank/index.shtml) to know concept and flow. Sign up/in on [Bluemix](ng.bluemix.net) and crate a Retreive and Rank service with `usr/pwd`
 
 1. Install nodejs on your computer: https://nodejs.org/en/
 
