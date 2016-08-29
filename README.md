@@ -29,7 +29,7 @@ Bluemix API of retrieve and rank in Node.js
 1. Go to Nodejs SDK from [Github](https://github.com/watson-developer-cloud/node-sdk) page which is developed by IBM.
 2. Open get started [page[(https://www.ibm.com/watson/developercloud/doc/retrieve-rank/index.shtml) to download some resources.
 3. Install node-nodule:`$ npm install watson-developer-cloud --save`
-4. Credential:
+* Credential:
 ```javascript
 var retrieve_and_rank = watson.retrieve_and_rank({
   username: '<username>',
@@ -37,7 +37,7 @@ var retrieve_and_rank = watson.retrieve_and_rank({
   version: 'v1'
 });
 ```
-5. Create a cluster first.
+* Create a cluster first.
 ```javascript
 function createCluster() {
   retrieve_and_rank.createCluster({
@@ -52,7 +52,7 @@ function createCluster() {
   });
 }
 ```
-6. Upload configuration file
+* Upload configuration file
 ```javascript
 function uploadConfig() {
 
@@ -71,7 +71,7 @@ function uploadConfig() {
   });
 }
 ```
-7. Create a collection
+* Create a collection
 ```javascript
 function createCollection(name) {
   var params = {
@@ -90,7 +90,7 @@ function createCollection(name) {
   });
 }
 ```
-8. Upload documents. 
+* Upload documents. 
 ```javascript
 function uploadDoc(path) {
 
@@ -121,11 +121,11 @@ function uploadDoc(path) {
   });
 }
 ```
-9. Create and train the ranker. Please **DON’T** use node,js or Curl this step. Just use Python file to process. 
+* Create and train the ranker. Please **DON’T** use node,js or Curl this step. Just use Python file to process. 
 ```
 $ python ./train_with_encoded_ja.py -u "<username>":"<password>"
 ```
-10. Search and Rank
+* Search and Rank
 ```javascript
 function searching(input) {
   
