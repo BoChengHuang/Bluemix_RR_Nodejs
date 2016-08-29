@@ -29,6 +29,7 @@ Bluemix API of retrieve and rank in Node.js
 1. Go to Nodejs SDK from [Github](https://github.com/watson-developer-cloud/node-sdk) page which is developed by IBM.
 2. Open get started [page[(https://www.ibm.com/watson/developercloud/doc/retrieve-rank/index.shtml) to download some resources.
 3. Install node-nodule:`$ npm install watson-developer-cloud --save`
+
 * Credential:
 ```javascript
 var retrieve_and_rank = watson.retrieve_and_rank({
