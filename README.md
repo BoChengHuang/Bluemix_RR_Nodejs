@@ -18,11 +18,9 @@ Bluemix API of retrieve and rank in Node.js
 # Stage One - Set up service ###
 
 1. Log in at [Bluemix](http://ng.bluemix.net) website.
-2. Go to catalog and find the NLC service.
-![Catalog](/screenshots/Catalog.png)
+2. Go to catalog and find the R&R service.
 3. Type a unique name for the service instance in the Service name field. Leave the default values for the other options.
 4. In your Service Credentials, bear in mind your *username* and *password*. 
-![Catalog](/screenshots/Credentials.png)
 
 # Stage Two - Create, train and rank a classifier ###
 
